@@ -4,9 +4,12 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-info">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        {/* <a className="navbar-brand" href="#">
           <b>Router Demo</b>
-        </a>
+        </a> */}
+        <Link className="navbar-brand" to="/">
+        <b>Router Demo</b>
+              </Link>
         <button
           className="navbar-toggler"
           type="button"
